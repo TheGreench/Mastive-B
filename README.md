@@ -70,7 +70,7 @@ nodemon dev
 
 ## Contribuyendo 🖇️
 
-To learn how to contribute join our [Discord Server](https://discord.gg/vZVhs26)
+To learn how to contribute join our [Discord Server](https://discord.gg/vZVhs26) and DM @Moscu or read `#information`
 
 ## Licencia 📄
 
