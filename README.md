@@ -68,11 +68,11 @@ nodemon dev
 ```
 
 
-## Contribuyendo 🖇️
+## Contributing 🖇️
 
 To learn how to contribute join our [Discord Server](https://discord.gg/vZVhs26) and DM @Moscu or read `#information`
 
-## Licencia 📄
+## License 📄
 
 This Proyect is under the MIT License - read the file [LICENSE.md](LICENSE.md) to learn more about it
 
