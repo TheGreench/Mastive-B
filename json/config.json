@@ -1,0 +1,27 @@
+{
+    "prefix": "*",
+    "lang": "English",
+    "webhook": "https://discordapp.com/api/webhooks/733706215288471662/cNw4m7EgNC-Vx4qpAMSnr1Iv3yuR57-tV1fsIhhXlbeDTxrl2GELEYXFo-AQKrC5Kokj",
+    "emojies": {
+        "exclamation": "❗️",
+        "stop": "🛑",
+        "cross": "❌",
+        "tick": "",
+        "musicFolder": "",
+        "checkList": "📋",
+        "ping": "📌",
+        "settings1": "<:settings:727929997406502993>",
+        "yes": "<:yes:730256388495769612>",
+        "no": "<:no:730255624205500517>",
+        "neutral": "<:neutral1:738524466102927429>",
+        "users": "<:users_logo:738525259820695592>",
+        "star": "<:coinsS:750763623877574767>",
+        "premium:": "<:premium1:750032911142486096>",
+        "xp": "<:xp:750032158189551686>",
+        "level": "<:level:750032299357110414>",
+        "streak": "<:streak1:750034202929397921>",
+        "gems": "<:gems:750446617689194577>",
+        "rubies": "<:rubies:750447091502809150>"
+    },
+    "MAX_PLAYLIST_SIZE": 10
+}

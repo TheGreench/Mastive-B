@@ -1,0 +1,345 @@
+{
+    "cmdDescriptions": {
+        "music": {
+            "four": "Bergabung dengan channel yang ditentukan dan mulai memutar musik acak atau musik yang ditentukan setiap saat.",
+            "np": "Menampilkan lagu yang sedang diputar.",
+            "pause": "Menjeda playlist saat ini.",
+            "play": "Bergabung dan mulai memutar musik di voice channel Anda.",
+            "queue": "Menunjukkan antrian saat ini.",
+            "remove": "Menghapus lagu dari antrian.",
+            "resume": "Melanjutkan lagu yang dipause.",
+            "skip": "Skip ke lagu berikut dalam antrean.",
+            "stop": "Berhenti memutar musik.",
+            "volume": "Mengubah volume antrian saat ini",
+            "join": "Bergabung ke voice channel di mana Anda berada.",
+            "leave": "Meninggalkan voice channel di mana Anda berada.",
+            "loop": "Ulangi antrian saat ini.",
+            "skipto": "Melompat ke lagu dalam antrean.",
+            "shuffle": "Mengacak antrean saat ini."
+        },
+        "utility": {
+            "help": "Menampilkan semua commands, atau satu informasi commands tertentu.",
+            "issue": "Laporkan masalah ke staf Mastive.",
+            "stats": "Menampilkan statistik yang berguna dari Mastive.",
+            "support": "Mengirim invite link ke Server Mastive.",
+            "avatar": "Menampilkan avatar pengguna atau penulis."
+        },
+        "administration": {
+            "config": "Menunjukkan pengaturan saat ini untuk server.",
+            "djrole": "Mengubah / melihat pengaturan djRole server.",
+            "lang": "Mengubah / melihat bahasa untuk server.",
+            "prefix": "Mengubah / Menunjukkan pengaturan server tempat comamnd dijalankan."
+        },
+        "owner": {
+            "eval": "Mengevaluasi JavaScript yang berubah-ubah.",
+            "statusU": "Private",
+            "webUpdate": "Private"
+        },
+        "infomation":{
+            "serverinfo": "Menampilkan informasi berguna tentang server.",
+            "userinfo": "Mendapatkan informasi tentang user.",
+            "roleinfo": "Menunjukkan informasi suatu role.",
+            "covid": "Menampilkan informasi tentang COVID-19.",
+            "weather": "Tampilkan detail cuaca suatu lokasi."
+        },
+        "economy": {
+            "daily": "Keuntungan harian yang didapat untuk perekonomian.",
+            "account": "Mengirim Akun Ekonomi Anda.",
+            "steal": "Mencuri dari orang lain di server.",
+            "work": "Mendapatkan uang."
+        },
+        "fun": {
+            "ball": "Jawab pertanyaan Anda.",
+            "trigger": "Trigger profil pengguna."
+        },
+        "imgs": {
+            "panda": "Menunjukkan gambar Panda.",
+            "fox": "Menunjukkan gambar Rubah.",
+            "bird": "Menunjukkan gambar Burung.",
+            "koala": "Menunjukkan gambar Koala.",
+            "dog": "Menunjukkan gambar Asu.",
+            "cat": "Menunjukkan gambar Kucing.",
+            "blur": "Mengaburkan gambar yang Anda kirim.",
+            "blurple": "Blurple gambar yang Anda kirim.",
+            "flip": "Membalik gambar yang Anda kirim."
+        },
+        "eco": {
+            "account": "Melihat profil Anda atau orang lain yang Anda berikan ID.",
+            "createa": "Membuat akun Anda untuk perekonomian."
+        }
+    },
+    "cmdNsfw": {
+        "notNsfw": "<:no:730255624205500517> Eeeits! Hanya boleh di channel NSFW."
+    },
+    "cmdStatus": {
+        "working": "Bekerja",
+        "disabled": "Disabled",
+        "underDevelopment": "Dalam pengembangan"
+    },
+    "cmdMusic": {
+        "djOn": "<:no:730255624205500517> Kamu tidak memiliki role `DJ`.\n*DJ Role settings diAktifkan.*",
+        "nothingPlaying": "<:no:730255624205500517> Tidak ada yang diputar.",
+        "noVC": "<:no:730255624205500517> Kamu tidak sedang berada di voice channel.",
+        "noSong": "<:no:730255624205500517> Anda perlu menyatakan lagu!\n*Nama lagu atau link.*",
+        "notJoinVC": "<:no:730255624205500517> Maaf!, ada masalah saat bergabung ke voice channel.",
+        "stateVolN": "<:neutral1:738524466102927429> Gunakan nomor untuk set volume.",
+        "stateVolN2": "<:neutral1:738524466102927429> Gunakan nomor antara 0 - 100.",
+        "musicPlaying": "<:no:730255624205500517> Music sedang diputar di voice channel yang berbeda!",
+        "queueEmpty": "<:neutral1:738524466102927429> Antrian lagu kosong.",
+        "nFromQueue": "<:neutral1:738524466102927429> Masukan nomor lagu yang valid.",
+        "embedTitleSongR": "<:yes:730256388495769612> Request lagu",
+        "embedTitielPlaylistR": "<:yes:730256388495769612> Request antrian/playlist lagu",
+        "addedtoQueue": "Ditambahkan ke antrian lagu.",
+        "queueFinished": "<:yes:730256388495769612> Antrian lagu selesai",
+        "musicStop": "<:yes:730256388495769612> Music berhenti.",
+        "playing": ":musical_note: Sekarang memutar"
+    },
+    "cmdTranslated": {
+        "yes": "<:yes:730256388495769612>",
+        "no": "<:no:730255624205500517>"
+    },
+    "helpCmd": {
+        "title": "Mastive Commands",
+        "description": "Mastive adalah cara mudah untuk memainkan Musik di Server Anda! Fitur baru diunggah ke kode untuk pengalaman yang lebih baik.\nPrefix default Mastive: `*` Atau dengan @aku (@Mastive).",
+        "links1": "Links",
+        "links2": "[Donasi](https://mastive.cf/donate) | [Support Server](https://discord.gg/rzEDr3X) | [Website (Dalam pengembangan)](https://www.mastive.cf/) | [Dokumentasi Mastive](https://docs.mastive.cf/) | [Bot Invite](https://discord.com/api/oauth2/authorize?client_id=613498706133647362&permissions=367226&scope=bot)",
+        "phrase": "Command",
+        "extraTitle0": "Extra Help",
+        "extraTitle1": "**Nama Command**:",
+        "extraDesc1": "**Deskripsi**:",
+        "extraAliases1": "**Alias**:",
+        "extraUsage1": "**Usage**:",
+        "extraPerms1": "**Permissions**:",
+        "extraTranslated1": "**Translated**:",
+        "extraStatus1": "**Status**:",
+        "extraDesc2": "Tidak ada deskripsi",
+        "extraAliases2": "Tidak ada alias",
+        "extraUsage2": "Tidak ada Usage",
+        "extraPerms2": "Tidak Ada Permission yang Diperlukan",
+        "extraStatus2": "Tidak Ada Status",
+        "extraTransalated2": "Tidak Ada Terjemahan",
+        "infoError": "<:neutral1:738524466102927429> Maaf! aku tidak dapat memberikan informasi tentang command ini."
+    },
+    "covidCmd": {
+        "embedTitle1": "Kasus Global",
+        "embedField2": "Total Kasus",
+        "embedField3": "Total Kematian",
+        "embedField4": "Total Dipulihkan",
+        "embedField5": "Kasus hari ini",
+        "embedField6": "Kematian hari ini",
+        "embedField7": "Kasus aktif",
+        "response1": "Telusuri negara, negara bagian, atau dapatkan informasi tentang setiap negara dengan mengetik `*covid all`.",
+        "response2": "Anda harus memasuki negara bagian untuk mencari!",
+        "response3": "Apakah Anda yakin bahwa negara bagian itu ada?"
+    },
+    "issueCmd": {
+        "embedDescYes": "<:yes:730256388495769612> Masalah telah diposting! | `Menghitung: #0"
+    },
+    "serverCmd": {
+        "response1": "**",
+        "response2": "** Guild/Servers"
+    },
+    "serverinfoCmd": {
+        "embedField1": "ID",
+        "embedField2": "Nama",
+        "embedField3": "Owner",
+        "embedField4": "Wilayah",
+        "embedField5": "Members",
+        "embedField6": "Text Channels",
+        "embedField7": "Voice Channels",
+        "embedField8": "Manusia",
+        "embedField9": "Robots",
+        "embedField10": "Online",
+        "embedField11": "Idle",
+        "embedField12": "Offline"
+    },
+    "statsCmd": {
+        "embedTitle": "Informasi Bot",
+        "embedField1": "Operating System",
+        "embedField2": "OS Release",
+        "embedField3": "CPU",
+        "embedField4": "CPU Count",
+        "embedField5": "Architecture",
+        "embedField6": "Memory",
+        "embedFIeld7": "Memory Usage",
+        "embedField8": "Stats",
+        "embedField9": "\nUptime:",
+        "embedField9A": "\nServers:",
+        "embedField9B": "\nChannels:",
+        "embedField9C": "\nCommands:",
+        "embedField10": "Discord.js",
+        "embedField11": "Versi Bot",
+        "embedField12": "Node",
+        "embedField13": "ID Bot",
+        "embedField14": "Link lainya",
+        "embedField14B": "[Home - Mastive](https://mastive.cf/) | [Discord Server](https://discord.gg/rzEDr3X) | [Halaman Donasi](https://mastive.cf/donate) | [Bot Invite](https://discord.com/api/oauth2/authorize?client_id=613498706133647362&permissions=367226&scope=bot) | [TOP GG](https://top.gg/bot/613498706133647362) | [Discord Labs](https://bots.discordlabs.org/bot/613498706133647362)"
+    },
+    "userinfoCmd": {
+        "statuses": {
+            "online": "<:Online:732102543072821289> Online",
+            "idle": "<:Idle:732102530636447775> Idle",
+            "dnd": "<:Offline:732102513301651506> Offline/DnD",
+            "offline": "<:Discord_invisible:732102685603397672> Offline/Invisible"
+        },
+        "embedField1": "Full",
+        "embedField2": "ID",
+        "embedField3": "Nickname",
+        "embedField4": "Is bot",
+        "embedField5": "Status",
+        "embedField6": "Playing",
+        "embedField7": "Roles",
+        "embedField8": "Bergabung dengan Discord Saat",
+        "embedField9": "Information About"
+    },
+    "configCmd": {
+        "response1": "<:settings:727929997406502993> **Server Config**",
+        "embedDesc1": "- ID Server:",
+        "embedDesc2": "- Bahasa Saat Ini:",
+        "embedDesc3": "- Prefix Saat Ini:",
+        "embedDesc4": "- DJ Role(True/False):",
+        "embedDesc5": "- DJ Role:",
+        "embedDesc6": "- Mod Role: `No Usage`",
+        "embedDesc7": "- Admin Role: `No Usage`",
+        "embedDesc8": "- Logs Channel: `No Usage`"
+    },
+    "djroleCmd": {
+        "noPerms": "<:no:730255624205500517> Maaf cuk! Lu ga bisa pake command ini, run: `",
+        "noPerms2": "help djrole`",
+        "response1": "Pengaturan role Dj untuk",
+        "response2": "adalah",
+        "response3": "dan rolenya adalah: ",
+        "response4": "\nPengaturan yang tersedia: `true` or `false`",
+        "notValid": "<:no:730255624205500517> Bukan pengaturan yang valid!\nCoba Jalankan ",
+        "changed": "Berhasil mengubah pengaturan Role Dj menjadi"
+    },
+    "langCmd": {
+        "noPerms": "<:no:730255624205500517> Maaf ya! kamu tidak bisa menggunakan command ini, run: `",
+        "reponse1": "Bahasa:",
+        "noPerms2": "help lang` .",
+        "response2": "Bahasa untuk ",
+        "response3": "Adalah",
+        "response4": "**Bahasa yang tersedia:**\n`English` - `Indonesia` - `Spanish` - `German` - `French` - `Norwegian`",
+        "notValid": "**Pengaturan tidak valid.** Coba jalankan",
+        "changed": "Berhasil mengubah bahasa menjadi"
+    },
+    "prefixCmd": {
+        "noPerms": "<:no:730255624205500517> Kamu tidak bisa menggunakan command ini, run: `",
+        "noPerms2": "help prefix` .",
+        "reponse1": "Prefix untuk",
+        "response2": "Adalah ",
+        "changed": "<:yes:730256388495769612> Berhasil mengubah bahasa menjadi"
+    },
+    "FourCmd": {
+        "response": "Dalam masa pengembangan!"
+    },
+    "npCmd": {
+        "embedTitle": "<:yes:730256388495769612> **Sekarang memutar**",
+        "embedDesc1": "Durasi",
+        "embedDesc2": "Detik",
+        "song": "Lagu:",
+        "author": "Author:",
+        "likes_dislikes": "Likes | Dislikes:",
+        "short_Desc": "Deskripsi singkat:"
+    },
+    "pauseCmd": {
+        "paused": ":pause_button: DiPause",
+        "aPaused": "<:neutral1:738524466102927429> Antrian lagu sudah diPause!"
+    },
+    "joinCmd": {
+        "joined": "<:yes:730256388495769612> Saya berhasil bergabung Voice Channel!",
+        "notJoin": "<:no:730255624205500517> Maaf! Aku ga bisa masuk ke Voice Channel!"
+    },
+    "leaveCmd": {
+        "left": "<:yes:730256388495769612> Aku berhasil keluar dari voice channel!",
+        "notLeft": "<:no:730255624205500517> Maaf! Aku ga bisa keluar dari Voice Channel!"
+    },
+    "loopCmd": {
+        "res1": "<:yes:730256388495769612> Pengaturan loop sekarang dikonfigurasi sebagai "
+    },
+    "roleinfoCmd": {
+        "noRole": "<:no:730255624205500517> Aku tidak bisa menemukan role itu, coba gunakan ID atau Nama.",
+        "title": "Information about: ",
+        "field1": "Name",
+        "field2": "ID Role",
+        "field3": "Warna  Role (Hex)",
+        "field4": "Posisi",
+        "field5": "Dibuat pada",
+        "field6": "Members",
+        "field6a": "ada ",
+        "field6b": " Members dengan role ini.",
+        "field7": "Mengangkat",
+        "field8": "Dikelola oleh integrasi",
+        "field9": "Mentionable",
+        "footer": "Server Dibuat:"
+    },
+    "supportCmd": "Butuh bantuan? [Join support server ku](https://discord.gg/rzEDr3X)\n\n*Disclaimer: Kami memiliki bot pelacakan dengan Situs Web Pihak Ketiga untuk melacak aktivitas di server!*",
+    "skiptoCmd": {},
+    "shuffleCmd": {},
+    "ballRandomCmd": {
+        "ask": "Tolong ajukan pertanyaan yang bisa saya jawab!",
+        "eightball": [
+            "Sudah pasti.",
+            "Sudah pasti begitu.",
+            "Tanpa keraguan.",
+            "iya tentu saja.",
+            "Kamu mungkin bergantung padanya.",
+            "Menurut saya, ya.",
+            "Yang paling disukai.",
+            "bagus.",
+            "Y.",
+            "Tandanya menunjuk ke ya.",
+            "Coba lagi.",
+            "Tanya lagi nanti.",
+            "Lebih baik gak ku kasih tau sekarang.",
+            "Lagi ga bisa memprediksi sekarang.",
+            "Konsentrasi dan coba lagi.",
+            "Jangan mengandalkannya.",
+            "Saya berkaata tidak.",
+            "Emak saya mengatakan tidak.",
+            "tidak begitu bagus.",
+            "Sangat diragukan.",
+            "Tidak mungkin.",
+            "Mungkin",
+            "Jawabannya tersembunyi di dalam diri Anda",
+            "Orraaa.",
+            "Tergantung mood dari dewa CS",
+            "Tunggu sebentar",
+            "Ini selesai",
+            "Ini baru mulai",
+            "Semoga beruntung",
+			"Hanya DanizPlayz yang tau."
+        ]
+    },
+    "gAdd": {
+        "noChannelTitle": "PERINGATAN",
+        "noChannelDesc1": "*Log members diaktifkan tetapi saya tidak dapat menemukan channel tersebut.*",
+        "noChannelDesc2": "- Jika Anda ingin menonaktifkan pesan ini dan log members, run",
+        "noChannelDesc3": "- Jika tidak, buat channel bernama `joins` atau siapkan dengan",
+
+        "channelFooter": "Total Members: [",
+        "channelDesc1": "\nA User baru telah bergabung ",
+        "channelDesc2": "**\nMember: ",
+        "channelDesc3": "**Tag Member: **#",
+        "channelDesc4": "** ID Member: "
+    },
+    "gRemove": {
+        "noChannelTitle": "PERINGATAN",
+        "noChannelDesc1": "*Log members diaktifkan tetapi saya tidak dapat menemukan channel tersebut.*",
+        "noChannelDesc2": "- Jika Anda ingin menonaktifkan pesan ini dan log members, run",
+        "noChannelDesc3": "- Jika tidak, buat channel bernama `joins` atau siapkan dengan",
+
+        "channelFooter": "Total Members: [",
+        "channelDesc1": "\nA user has Left ",
+        "channelDesc2": "\nMember: ",
+        "channelDesc3": "Tag Member: **#",
+        "channelDesc4": "ID Member: "
+    },
+    "acc": {
+        "yesCreate": {
+            "desc": "**Akun Dibuat!** | ID: `"
+        },
+        "noCreate": {
+            "desc": "**Kamu sudah memiliki akun!** | ID: `"
+        }
+    }
+}

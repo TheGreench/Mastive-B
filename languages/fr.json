@@ -1,0 +1,344 @@
+{
+    "cmdDescriptions": {
+        "music": {
+            "four": "Rejoint un canal désigné et démarrer la lecture aléatoire de la musique ou désigné de la musique tout le temps.",
+            "np": "Affiche le morceau en cours de lecture.",
+            "pause": "Pause de la liste de lecture en cours.",
+            "play": "La rejoint et commence à jouer de la musique dans le canal de voix que vous êtes.",
+            "queue": "Affiche la file d'attente.",
+            "remove": "Supprime une chanson à partir de la file d'attente.",
+            "resume": "Reprend la pause de la chanson.",
+            "skip": "Passe à la chanson suivante dans la file d'attente.",
+            "stop": "Arrête de jouer de la musique.",
+            "volume": "Modifie le volume actuel de la file d'attente",
+            "join": "Rejoint le Canal de Voix où vous êtes.",
+            "leave": "Laisse la Voix du Canal où vous êtes.",
+            "loop": "Les boucles de la file d'attente en cours.",
+            "skipto": "Saute une chanson dans la file d'attente.",
+            "shuffle": "Le mélange de la file d'attente en cours."
+        },
+        "utility": {
+            "help": "Retourne toutes les commandes, ou d'une commande spécifique de l'information.",
+            "issue": "Signale un problème à la mastive personnel.",
+            "stats": "Affiche des statistiques utiles de Mastive.",
+            "support": "Envoie une invitation à Mastive du Serveur.",
+            "avatar": "Affiche l'avatar d'un utilisateur ou de l'auteur."
+        },
+        "administration": {
+            "config": "Affiche les paramètres actuels pour le serveur.",
+            "djrole": "Changements/afficher les paramètres de la djRole du serveur.",
+            "lang": "Modifications de l'affichage de la langue pour le serveur.",
+            "prefix": "Changements/Affiche les paramètres du serveur sur lequel le comamnd est exécuté."
+        },
+        "owner": {
+            "eval": "Évalue JavaScript arbitraire.",
+            "statusU": "Privé",
+            "webUpdate": "Privé"
+        },
+        "infomation": {
+            "serverinfo": "Affiche les informations utiles sur le serveur.",
+            "userinfo": "Obtient des informations sur un utilisateur.",
+            "roleinfo": "Affiche des informations sur un rôle.",
+            "covid": "Affiche des informations sur COVID-19.",
+            "weather": "Moteurs de recherche d'informations météo d'un lieu."
+        },
+        "economy": {
+            "daily": "Un profit Quotidien pour obtenir de l'économie.",
+            "account": "L'envoie de votre Économie en Compte.",
+            "steal": "Vole d'une autre personne du serveur.",
+            "work": "Obtient de l'argent."
+        },
+        "fun": {
+            "ball": "Les réponses à votre question.",
+            "trigger": "Les déclencheurs d'un profil d'utilisateur."
+        },
+        "imgs": {
+            "panda": "Montre une image d'un Panda.",
+            "fox": "Montre une image d'un Renard.",
+            "bird": "Montre une image d'un Oiseau.",
+            "koala": "Montre une image d'un Koala.",
+            "dog": "Montre une image d'un Chien.",
+            "cat": "Montre une image d'un Chat.",
+            "blur": "Brouille l'image que vous envoyez.",
+            "blurple": "Blurples l'image que vous envoyez.",
+            "flip": "Fait pivoter l'image que vous envoyez."
+        },
+        "eco": {
+            "account": "Affiche votre profil ou tout autre que vous fournissez l'ID.",
+            "createa": "Crée votre compte pour l'économie."
+        }
+    },
+    "cmdNsfw": {
+        "notNsfw": "<:no:730255624205500517> Nop! Seulement dans NSFW Canaux."
+    },
+    "cmdStatus": {
+        "working": "De travail",
+        "disabled": "Désactivé",
+        "underDevelopment": "En Cours De Développement"
+    },
+    "cmdMusic": {
+        "djOn": "<:no:730255624205500517> Vous n'avez pas le `DJ` rôle.\n*DJ les paramètres de Rôle sont enbaled.*",
+        "nothingPlaying": "<:no:730255624205500517> Il n'y a rien à jouer.",
+        "noVC": "<:no:730255624205500517> Vous n'êtes pas dans un Canal de Voix.",
+        "noSong": "<:no:730255624205500517> Vous devez indiquer une chanson!\n*Soit le nom ou le lien.*",
+        "notJoinVC": "<:no:730255624205500517> Im Sorry!, il y avait un problème de rejoindre le Canal de Voix.",
+        "stateVolN": "<:neutral1:738524466102927429> Merci d'utiliser un numéro de régler le volume.",
+        "stateVolN2": "<:neutral1:738524466102927429> s'il vous Plaît utiliser un nombre entre 0 et 100.",
+        "musicPlaying": "<:no:730255624205500517> La musique est déjà en train de jouer dans un autre Canal de Voix!",
+        "queueEmpty": "<:neutral1:738524466102927429> La file d'attente est vide.",
+        "nFromQueue": "<:neutral1:738524466102927429> Entrez valide numéro de morceau.",
+        "embedTitleSongR": "<:yes::730256388495769612> Chanson Demande",
+        "embedTitielPlaylistR": "<:yes::730256388495769612> liste de lecture/la File d'attente de la Demande",
+        "addedtoQueue": "ajouté à la file d'attente.",
+        "queueFinished": "<:yes::730256388495769612> File d'attente terminé",
+        "musicStop": "<:yes::730256388495769612> La musique s'est arrêtée.",
+        "playing": ":musical_note: Now Playing"
+    },
+    "cmdTranslated": {
+        "yes": "<:yes::730256388495769612>",
+        "no": "<:no:730255624205500517>"
+    },
+    "helpCmd": {
+        "title": "Mastive Commandes",
+        "description": "Mastive est un moyen facile de jouer de la Musique dans votre Discorde Serveur! De nouvelles fonctionnalités téléchargées sur le code pour une meilleure expérience.\nPar défaut Mastive prefix: `*` ou par @Me (@Mastive).",
+        "links1": "Liens",
+        "links2": "[Don](https://mastive.cf/donate) | [Serveur de Support](https://discord.gg/rzEDr3X) | [Web (en cours de Développement)](https://www.mastive.cf/) | [Mastive Documentation](https://docs.mastive.cf/) | [Bot Invite](https://discord.com/api/oauth2/authorize?client_id=613498706133647362&permissions=367226&scope=bot)",
+        "phrase": "Commande",
+        "extraTitle0": "De L'Aide Supplémentaire",
+        "extraTitle1": "**Le Nom De La Commande**:",
+        "extraDesc1": "**Description**:",
+        "extraAliases1": "**Alias**:",
+        "extraUsage1": "**Utilisation**:",
+        "extraPerms1": "**Autorisations**:",
+        "extraTranslated1": "**Traduit**:",
+        "extraStatus1": "**Statut**:",
+        "extraDesc2": "Pas De Description",
+        "extraAliases2": "Aucun Alias Fourni",
+        "extraUsage2": "Pas D'Utilisation Fourni",
+        "extraPerms2": "Aucune Autorisation N'Est Requise",
+        "extraStatus2": "D'État N'Est Pas Fourni",
+        "extraTransalated2": "Pas De Traduction Prévue",
+        "infoError": "<:neutral1:738524466102927429> je suis Désolé! Je coulnd ne trouve aucune information pour cette commande."
+    },
+    "covidCmd": {
+        "embedTitle1": "Les Cas",
+        "embedField2": "Nombre Total De Cas",
+        "embedField3": "Le Nombre Total De Décès",
+        "embedField4": "Total Récupéré",
+        "embedField5": "Aujourd'hui, les Cas de l'",
+        "embedField6": "Aujourd'hui Décès",
+        "embedField7": "Cas Actifs",
+        "response1": "Recherche pour un pays, un état, ou d'obtenir des informations à propos de chaque pays en tapant `*covid tous`.",
+        "response2": "Vous avez à entrer dans un état à la recherche pour les!",
+        "response3": "Êtes-vous sûr que l'état existe?"
+    },
+    "issueCmd": {
+        "embedDescYes": "<:yes::730256388495769612> La question a été posté! | `Count: #0"
+    },
+    "serverCmd": {
+        "response1": "**",
+        "response2": "** Guilde/Serveurs"
+    },
+    "serverinfoCmd": {
+        "embedField1": "ID",
+        "embedField2": "Nom",
+        "embedField3": "Propriétaire",
+        "embedField4": "Région",
+        "embedField5": "Les membres de l'",
+        "embedField6": "Texte Canaux",
+        "embedField7": "Les Canaux Vocaux",
+        "embedField8": "L'homme",
+        "embedField9": "Les Bots",
+        "embedField10": "En ligne",
+        "embedField11": "Inactif",
+        "embedField12": "En mode hors connexion"
+    },
+    "statsCmd": {
+        "embedTitle": "Bot Informations",
+        "embedField1": "Système D'Exploitation",
+        "embedField2": "OS Version",
+        "embedField3": "CPU",
+        "embedField4": "CPU Comte",
+        "embedField5": "L'Architecture",
+        "embedField6": "De mémoire",
+        "embedFIeld7": "L'Utilisation De La Mémoire",
+        "embedField8": "Stats",
+        "embedField9": "\nLa disponibilité:",
+        "embedField9A": "\nServeurs:",
+        "embedField9B": "\nCanaux:",
+        "embedField9C": "\nCommandes:",
+        "embedField10": "Discord.js",
+        "embedField11": "La Version Bot",
+        "embedField12": "Nœud",
+        "embedField13": "Bot Id",
+        "embedField14": "D'Autres Liens",
+        "embedField14B": "[Maison - Mastive](https://mastive.cf/) | [Discorde Serveur](https://discord.gg/rzEDr3X) | [Don de Page](https://mastive.cf/donate) | [Bot Invite](https://discord.com/api/oauth2/authorize?client_id=613498706133647362&permissions=367226&scope=bot) | [TOP GG](https://top.gg/bot/613498706133647362) | [Discorde Labs](https://bots.discordlabs.org/bot/613498706133647362)"
+    },
+    "userinfoCmd": {
+        "statuses": {
+            "online": "<:Online:732102543072821289> En Ligne",
+            "idle": "<:Idle:732102530636447775> Idle",
+            "dnd": "<:Offline:732102513301651506> Hors Ligne/Mdn",
+            "offline": "<:Discord_invisible:732102685603397672> Hors Ligne/Invisible"
+        },
+        "embedField1": "Complet ",
+        "embedField2": "ID",
+        "embedField3": "Surnom",
+        "embedField4": "Est bot",
+        "embedField5": "Statut",
+        "embedField6": "Jouer",
+        "embedField7": "Les rôles",
+        "embedField8": "Rejoint La Discorde",
+        "embedField9": "Informations Sur"
+    },
+    "configCmd": {
+        "response1": "<:settings:727929997406502993> **la configuration du Serveur**",
+        "embedDesc1": "- L'Id Du Serveur:",
+        "embedDesc2": "- Langage Courant:",
+        "embedDesc3": "- Préfixe Courant:",
+        "embedDesc4": "- DJ Rôle(True/False):",
+        "embedDesc5": "- DJ Rôle:",
+        "embedDesc6": "- Mod Rôle: `Non Usage`",
+        "embedDesc7": "- Rôle Admin: `Non Usage`",
+        "embedDesc8": "- Les Journaux De La Chaîne: `Non Usage`"
+    },
+    "djroleCmd": {
+        "noPerms": "<:no:730255624205500517> je suis désolé! Vous ne pouvez pas exécuter cette commande, exécutez: `",
+        "noPerms2": "aider djrole`",
+        "response1": "Le Dj les paramètres de Rôle pour",
+        "response2": "est",
+        "response3": "et le rôle est: ",
+        "response4": "\nParamètres disponibles: `true` ou `false`",
+        "notValid": "<:no:730255624205500517> ce n'est Pas un paramètre valide!\nEssayez D'Exécuter ",
+        "changed": "Changé la Dj les paramètres de Rôle à "
+    },
+    "langCmd": {
+        "noPerms": "<:no:730255624205500517> je suis désolé! Vous ne pouvez pas exécuter cette commande, exécutez: `",
+        "reponse1": "Langue:",
+        "noPerms2": "aider lang`.",
+        "response2": "La langue de ",
+        "response3": "est",
+        "response4": "**Langues Disponibles:**\n`English` - `Spanish` - `German` - `French` - `Norwegian`",
+        "notValid": "**N'est pas un paramètre valide.** Essayez D'Exécuter",
+        "changed": "Changé la langue pour "
+    },
+    "prefixCmd": {
+        "noPerms": "<:no:730255624205500517> Vous ne pouvez pas exécuter cette commande, exécutez: `",
+        "noPerms2": "aider préfixe`.",
+        "reponse1": "Le préfixe de",
+        "response2": "est ",
+        "changed": "<:yes::730256388495769612> changé la langue pour "
+    },
+    "FourCmd": {
+        "response": "En Cours De Développement!"
+    },
+    "npCmd": {
+        "embedTitle": "<:yes::730256388495769612> **Lecture en cours**",
+        "embedDesc1": "Durée",
+        "embedDesc2": "secondes",
+        "song": "Chanson:",
+        "author": "Author:",
+        "likes_dislikes": "Aime | N'aime pas:",
+        "short_Desc": "Description courte:"
+    },
+    "pauseCmd": {
+        "paused": ":pause_button: Pause",
+        "aPaused": "<:neutral1:738524466102927429> La file d'attente est déjà en pause!"
+    },
+    "joinCmd": {
+        "joined": "<:yes::730256388495769612> j'ai réussi a rejoint le Canal de Voix!",
+        "notJoin": "<:no:730255624205500517> je suis désolé! Je n'étais pas en mesure de rejoindre le Canal de Voix!"
+    },
+    "leaveCmd": {
+        "left": "<:yes::730256388495769612> j'ai réussi à gauche le Canal de Voix!",
+        "notLeft": "<:no:730255624205500517> je suis désolé! Je n'étais pas en mesure de quitter le Canal de Voix!"
+    },
+    "loopCmd": {
+        "res1": "<:yes::730256388495769612> réglages de Boucle sont maintenant configurés en tant que "
+    },
+    "roleinfoCmd": {
+        "noRole": "<:no:730255624205500517> je ne pouvais pas trouver ce rôle, essayez d'utiliser l'ID ou le nom.",
+        "title": "Informations sur: ",
+        "field1": "Nom",
+        "field2": "ID de rôle",
+        "field3": "Rôle De La Couleur (Hex)",
+        "field4": "Position",
+        "field5": "Créé à",
+        "field6": "Les membres de l'",
+        "field6a": "Il y a ",
+        "field6b": " les membres avec ce rôle.",
+        "field7": "Hissé",
+        "field8": "Géré par une intégration",
+        "field9": "Empêche presque totalement",
+        "footer": "Serveur De Création:"
+    },
+    "supportCmd": "Vous cherchez de l'aide? [Rejoindre mon serveur de support](https://discord.gg/rzEDr3X)\n\n*Avertissement: Nous avons suivi les bots avec des Tierces Parties des Sites web de suivre l'activité dans le serveur!*",
+    "skiptoCmd": [],
+    "shuffleCmd": [],
+    "ballRandomCmd": {
+        "ask": "Veuillez demander em une question à laquelle je peux répondre!",
+        "eightball": [
+            "Il est certains.",
+            "Il est décidément de la sorte.",
+            "Sans l'ombre d'un doute.",
+            "Oui, définitivement.",
+            "Vous pouvez compter sur elle.",
+            "Comme je le vois, oui.",
+            "Le plus probable.",
+            "Outlook bonne.",
+            "Oui.",
+            "Les signes pointent vers oui.",
+            "Réponse floue essayer de nouveau.",
+            "Demander à nouveau plus tard.",
+            "Mieux vaut ne pas vous le dire maintenant.",
+            "Ne peut pas prédire maintenant.",
+            "De concentrer et de demander à nouveau.",
+            "Ne comptent pas sur elle.",
+            "Ma réponse est non.",
+            "Mes sources disent pas.",
+            "Outlook pas si bon.",
+            "Très douteux.",
+            "Aucun moyen.",
+            "Peut-être",
+            "La réponse se cache à l'intérieur de vous",
+            "Pas de.",
+            "Dépend de l'humeur de la CS dieu",
+            "Accrocher",
+            "Il`s plus",
+            "C'est juste le début",
+            "Bonne Chance"
+        ]
+    },
+    "gAdd": {
+        "noChannelTitle": "AVERTISSEMENT",
+        "noChannelDesc1": "*Les journaux des membres sont activés mais je ne trouve pas le canal.*",
+        "noChannelDesc2": "- Si vous souhaitez désactiver ce message et les journaux des membres, exécutez",
+        "noChannelDesc3": "- Sinon, créez un canal appelé `joins` ou configurez-le avec",
+
+        "channelFooter": "Nombre total de membres: [",
+        "channelDesc1": "\nUn nouvel utilisateur a rejoint ",
+        "channelDesc2": "**\nMembre: ",
+        "channelDesc3": "**Tag membre: **#",
+        "channelDesc4": "**Id membre: "
+    },
+    "gRemove": {
+        "noChannelTitle": "AVERTISSEMENT",
+        "noChannelDesc1": "*Les journaux des membres sont activés mais je ne trouve pas le canal.*",
+        "noChannelDesc2": "- Si vous souhaitez désactiver ce message et les journaux des membres, exécutez",
+        "noChannelDesc3": "- Sinon, créez un canal appelé `joins` ou configurez-le avec",
+
+        "channelFooter": "Nombre total de membres: [",
+        "channelDesc1": "\nUn utilisateur a quitté ",
+        "channelDesc2": "**\nMembre: ",
+        "channelDesc3": "**Tag membre: **#",
+        "channelDesc4": "**Id membre: "
+    },
+    "acc": {
+        "yesCreate": {
+            "desc": "**Compte créé!** | ID: `"
+        },
+        "noCreate": {
+            "desc": "**Avez vous déjà un compte!** | ID: `"
+        }
+    }
+}

@@ -1,0 +1,385 @@
+{
+    "cmdDescriptions": {
+        "music": {
+            "four": "Joins a designated channel and start playing random music or designated music all the time.",
+            "np": "Shows the current song that is playing.",
+            "pause": "Pauses the current playlist.",
+            "play": "Joins and starts playing music in the voice channel that you are.",
+            "queue": "Shows the current queue.",
+            "remove": "Removes a song from the queue.",
+            "resume": "Resumes the paused song.",
+            "skip": "Skips to the following song in the queue.",
+            "stop": "Stops playing music.",
+            "volume": "Changes the current volume of the queue",
+            "join": "Joins the Voice Channel where you are.",
+            "leave": "Leaves the Voice Channel where you are.",
+            "loop": "Loops the current queue.",
+            "skipto": "Skips to a song in the queue.",
+            "shuffle": "Shuffles the current queue."
+        },
+        "utility": {
+            "help": "Returns all commands, or one specific command information.",
+            "issue": "Reports an issue to the mastive staff.",
+            "stats": "Shows useful stats of Mastive.",
+            "support": "Sends an invite to Mastive's Server.",
+            "avatar": "Displays the avatar of a user or of the author."
+        },
+        "administration": {
+            "config": "Shows the current settings for the server.",
+            "djrole": "Changes/view the settings of the djRole of the server.",
+            "lang": "Changes/view the language for the server.",
+            "prefix": "Changes/Shows the settings of the server where the comamnd is run."
+        },
+        "owner": {
+            "eval": "Evaluates arbitrary JavaScript.",
+            "statusU": "Private",
+            "webUpdate": "Private"
+        },
+        "infomation":{
+            "serverinfo": "Shows useful information about the server.",
+            "userinfo": "Gets information about a user.",
+            "roleinfo": "Shows informations about a role.",
+            "covid": "Shows information about COVID-19.",
+            "weather": "Serach weather details of a location."
+        },
+        "economy": {
+            "daily": "A Daily profit to get for the economy.",
+            "account": "Sends your Economy Account.",
+            "steal": "Steals from another person of the server.",
+            "work": "Gets some money.",
+            "rep": "Gives a reputation point to a mentioned user."
+        },
+        "fun": {
+            "ball": "Answers your question.",
+            "trigger": "Triggers a user profile."
+        },
+        "imgs": {
+            "panda": "Shows an image of a Panda.",
+            "fox": "Shows an image of a Fox.",
+            "bird": "Shows an image of a Bird.",
+            "koala": "Shows an image of a Koala.",
+            "dog": "Shows an image of a Dog.",
+            "cat": "Shows an image of a Cat.",
+            "blur": "Blurs the image you send.",
+            "blurple": "Blurples the image you send.",
+            "flip": "Flips the image you send."
+        },
+        "eco": {
+            "account": "Views your profile or any other that you provide the ID.",
+            "createa": "Creates your account for the economy."
+        }
+    },
+    "cmdNsfw": {
+        "notNsfw": "<:no:730255624205500517> Nop! Only in NSFW Channels."
+    },
+    "cmdStatus": {
+        "working": "Working",
+        "disabled": "Disabled",
+        "underDevelopment": "Under Development"
+    },
+    "cmdMusic": {
+        "djOn": "<:no:730255624205500517> You dont have the `DJ` role.\n*DJ Role settings are enbaled.*",
+        "nothingPlaying": "<:no:730255624205500517> There is nothing playing.",
+        "noVC": "<:no:730255624205500517> You are not in a Voice Channel.",
+        "noSong": "<:no:730255624205500517> You need to state a song!\n*Either name or link.*",
+        "notJoinVC": "<:no:730255624205500517> Im Sorry!, there was a problem joining the Voice Channel.",
+        "stateVolN": "<:neutral1:738524466102927429> Please use a number to set volume.",
+        "stateVolN2": "<:neutral1:738524466102927429> Please use a number between 0 - 100.",
+        "musicPlaying": "<:no:730255624205500517> The music is already playing in a different Voice Channel!",
+        "queueEmpty": "<:neutral1:738524466102927429> The queue is empty.",
+        "nFromQueue": "<:neutral1:738524466102927429> Enter a valid song number.",
+        "embedTitleSongR": "<:yes:730256388495769612> Song Request",
+        "embedTitielPlaylistR": "<:yes:730256388495769612> Playlist/Queue Request",
+        "addedtoQueue": "added to queue.",
+        "queueFinished": "<:yes:730256388495769612> Queue finished",
+        "musicStop": "<:yes:730256388495769612> The music has stopped.",
+        "playing": ":musical_note: Now Playing"
+    },
+    "cmdTranslated": {
+        "yes": "<:yes:730256388495769612>",
+        "no": "<:no:730255624205500517>"
+    },
+    "helpCmd": {
+        "title": "Mastive Commands",
+        "description": "Mastive is an easy way to play Music in your Discord Server! New features are uploaded to the code for a better experience.\nDefaults Mastive prefix: `*` or by @Me (@Mastive).",
+        "links1": "Links",
+        "links2": "[Donate](https://mastive.cf/donate) | [Support Server](https://discord.gg/rzEDr3X) | [Web (Under Development)](https://www.mastive.cf/) | [Mastive Documentation](https://docs.mastive.cf/) | [Bot Invite](https://discord.com/api/oauth2/authorize?client_id=613498706133647362&permissions=367226&scope=bot)",
+        "phrase": "Command",
+        "extraTitle0": "Extra Help",
+        "extraTitle1": "**Command Name**:",
+        "extraDesc1": "**Description**:",
+        "extraAliases1": "**Aliases**:",
+        "extraUsage1": "**Usage**:",
+        "extraPerms1": "**Permissions**:",
+        "extraTranslated1": "**Translated**:",
+        "extraStatus1": "**Status**:",
+        "extraDesc2": "No Description Provided",
+        "extraAliases2": "No Aliases Provided",
+        "extraUsage2": "No Usage Provided",
+        "extraPerms2": "No Permissions Required",
+        "extraStatus2": "No Status Provided",
+        "extraTransalated2": "No Translation Provided",
+        "infoError": "<:neutral1:738524466102927429> Im Sorry! I coulnd't find any information for this command."
+    },
+    "covidCmd": {
+        "embedTitle1": "Global Cases",
+        "embedField2": "Total Cases",
+        "embedField3": "Total Deaths",
+        "embedField4": "Total Recovered",
+        "embedField5": "Today's Cases",
+        "embedField6": "Today's Deaths",
+        "embedField7": "Active Cases",
+        "response1": "Search for a country, state, or get information about every country by typing `*covid all`.",
+        "response2": "You have to enter a state to search for!",
+        "response3": "Are you sure that state exists?"
+    },
+    "issueCmd": {
+        "embedDescYes": "<:yes:730256388495769612> The issue has been posted! | `Count: #0"
+    },
+    "serverCmd": {
+        "response1": "**",
+        "response2": "** Guild/Servers"
+    },
+    "serverinfoCmd": {
+        "embedField1": "ID",
+        "embedField2": "Name",
+        "embedField3": "Owner",
+        "embedField4": "Region",
+        "embedField5": "Members",
+        "embedField6": "Text Channels",
+        "embedField7": "Voice Channels",
+        "embedField8": "Humans",
+        "embedField9": "Bots",
+        "embedField10": "Online",
+        "embedField11": "Idle",
+        "embedField12": "Offline"
+    },
+    "statsCmd": {
+        "embedTitle": "Bot Information",
+        "embedField1": "Operating System",
+        "embedField2": "OS Release",
+        "embedField3": "CPU",
+        "embedField4": "CPU Count",
+        "embedField5": "Architecture",
+        "embedField6": "Memory",
+        "embedFIeld7": "Memory Usage",
+        "embedField8": "Stats",
+        "embedField9": "\nUptime:",
+        "embedField9A": "\nServers:",
+        "embedField9B": "\nChannels:",
+        "embedField9C": "\nCommands:",
+        "embedField10": "Discord.js",
+        "embedField11": "Bot Version",
+        "embedField12": "Node",
+        "embedField13": "Bot Id",
+        "embedField14": "Other Links",
+        "embedField14B": "[Home - Mastive](https://mastive.cf/) | [Discord Server](https://discord.gg/rzEDr3X) | [Donation Page](https://mastive.cf/donate) | [Bot Invite](https://discord.com/api/oauth2/authorize?client_id=613498706133647362&permissions=367226&scope=bot) | [TOP GG](https://top.gg/bot/613498706133647362) | [Discord Labs](https://bots.discordlabs.org/bot/613498706133647362)"
+    },
+    "userinfoCmd": {
+        "statuses": {
+            "online": "<:Online:732102543072821289> Online",
+            "idle": "<:Idle:732102530636447775> Idle",
+            "dnd": "<:Offline:732102513301651506> Offline/DnD",
+            "offline": "<:Discord_invisible:732102685603397672> Offline/Invisible"
+        },
+        "embedField1": "Full",
+        "embedField2": "ID",
+        "embedField3": "Nickname",
+        "embedField4": "Is bot",
+        "embedField5": "Status",
+        "embedField6": "Playing",
+        "embedField7": "Roles",
+        "embedField8": "Joined Discord At",
+        "embedField9": "Information About"
+    },
+    "configCmd": {
+        "response1": "<:settings:727929997406502993> **Server Config**",
+        "embedDesc1": "- Server Id:",
+        "embedDesc2": "- Current Language:",
+        "embedDesc3": "- Current Prefix:",
+        "embedDesc4": "- DJ Role(True/False):",
+        "embedDesc5": "- DJ Role:",
+        "embedDesc6": "- Mod Role: `No Usage`",
+        "embedDesc7": "- Admin Role: `No Usage`",
+        "embedDesc8": "- Logs Channel: `No Usage`"
+    },
+    "djroleCmd": {
+        "noPerms": "<:no:730255624205500517> I'm sorry! You can't run this command, run: `",
+        "noPerms2": "help djrole`",
+        "response1": "The Dj Role settings for",
+        "response2": "is",
+        "response3": "and the role is: ",
+        "response4": "\nAvailable settings: `true` or `false`",
+        "notValid": "<:no:730255624205500517> Not a valid setting!\nTry Running ",
+        "changed": "Successfully changed the Dj Role settings to "
+    },
+    "langCmd": {
+        "noPerms": "<:no:730255624205500517> I'm sorry! You can't run this command, run: `",
+        "reponse1": "Language:",
+        "noPerms2": "help lang` .",
+        "response2": "The language for ",
+        "response3": "is",
+        "response4": "**Available Languages:**\n`English` - `Spanish` - `German` - `French` - `Norwegian`",
+        "notValid": "**Not a valid setting.** Try Running",
+        "changed": "Successfully changed the language to "
+    },
+    "prefixCmd": {
+        "noPerms": "<:no:730255624205500517> You can't run this command, run: `",
+        "noPerms2": "help prefix` .",
+        "reponse1": "The prefix for",
+        "response2": "is ",
+        "changed": "<:yes:730256388495769612> Successfully changed the language to "
+    },
+    "FourCmd": {
+        "response": "Under Development!"
+    },
+    "npCmd": {
+        "embedTitle": "<:yes:730256388495769612> **Now Playing**",
+        "embedDesc1": "Duration",
+        "embedDesc2": "seconds",
+        "song": "Song:",
+        "author": "Author:",
+        "likes_dislikes": "Likes | Dislikes:",
+        "short_Desc": "Short Description:"
+    },
+    "pauseCmd": {
+        "paused": ":pause_button: Paused",
+        "aPaused": "<:neutral1:738524466102927429> The queue is already paused!"
+    },
+    "joinCmd": {
+        "joined": "<:yes:730256388495769612> I have successfully joined the Voice Channel!",
+        "notJoin": "<:no:730255624205500517> I'm sorry! I wasn't able to join the Voice Channel!"
+    },
+    "leaveCmd": {
+        "left": "<:yes:730256388495769612> I have successfully left the Voice Channel!",
+        "notLeft": "<:no:730255624205500517> I'm sorry! I wasn't able to leave the Voice Channel!"
+    },
+    "loopCmd": {
+        "res1": "<:yes:730256388495769612> Loop settings are now configured as "
+    },
+    "roleinfoCmd": {
+        "noRole": "<:no:730255624205500517> I couldn't find that role, try using the ID or the name.",
+        "title": "Information about: ",
+        "field1": "Name",
+        "field2": "Role ID",
+        "field3": "Role Colour (Hex)",
+        "field4": "Position",
+        "field5": "Created at",
+        "field6": "Members",
+        "field6a": "There is/are ",
+        "field6b": " members with this role.",
+        "field7": "Hoisted",
+        "field8": "Managed by an integration",
+        "field9": "Mentionable",
+        "footer": "Server Created:"
+    },
+    "supportCmd": "Looking for help? [Join my support server](https://discord.gg/rzEDr3X)\n\n*Disclaimer: We have tracking bots with Third Partys Websites to track the activity in the server!*",
+    "skiptoCmd": {},
+    "shuffleCmd": {},
+    "ballRandomCmd": {
+        "ask": "Please ask em a question that I can answer!",
+        "eightball": [
+            "It is certain.",
+            "It is decidedly so.",
+            "Without a doubt.",
+            "Yes definitely.",
+            "You may rely on it.",
+            "As I see it, yes.",
+            "Most likely.",
+            "Outlook good.",
+            "Yes.",
+            "Signs point to yes.",
+            "Reply hazy try again.",
+            "Ask again later.",
+            "Better not tell you now.",
+            "Cannot predict now.",
+            "Concentrate and ask again.",
+            "Don\"t count on it.",
+            "My reply is no.",
+            "My sources say no.",
+            "Outlook not so good.",
+            "Very doubtful.",
+            "No way.",
+            "Maybe",
+            "The answer is hiding inside you",
+            "No.",
+            "Depends on the mood of the CS god",
+            "Hang on",
+            "It\"s over",
+            "It\"s just the beginning",
+            "Good Luck"
+        ]
+    },
+    "gAdd": {
+        "noChannelTitle": "WARNING",
+        "noChannelDesc1": "*Member Logs are enabled but I cant find the channel.*",
+        "noChannelDesc2": "- If you wish to disable this message and member logs, run",
+        "noChannelDesc3": "- Otherwise create a channel called `joins` or set it up with",
+
+        "channelFooter": "Total Members: [",
+        "channelDesc1": "\nA new user has joined ",
+        "channelDesc2": "**\nMember: ",
+        "channelDesc3": "**Member Tag: **#",
+        "channelDesc4": "** Member Id: "
+    },
+    "gRemove": {
+        "noChannelTitle": "WARNING",
+        "noChannelDesc1": "*Member Logs are enabled but I cant find the channel.*",
+        "noChannelDesc2": "- If you wish to disable this message and member logs, run",
+        "noChannelDesc3": "- Otherwise create a channel called `joins` or set it up with",
+
+        "channelFooter": "Total Members: [",
+        "channelDesc1": "\nA user has Left ",
+        "channelDesc2": "\nMember: ",
+        "channelDesc3": "Member Tag: **#",
+        "channelDesc4": "Member Id: "
+    },
+    "acc": {
+        "yesCreate": {
+            "desc": "**Account Created!** | ID: `"
+        },
+        "noCreate": {
+            "desc": "**You already have an Account!** | ID: `"
+        }
+    },
+    "economy": {
+        "error": "There was a problem while running this command!",
+        "daily": {
+            "one": "You have recived your Daily Bonus!!",
+            "two": "Coins:",
+            "three": "Fragments:",
+            "four": "Rubies:",
+            "five": "User ID:",
+            "time": {
+                "one": "You have already claimed your daily!",
+                "two": "Time Remaining:",
+                "three": "You can only claim dailies once every 24 hours.",
+                "four": "User ID:"
+            }
+        },
+        "bal": {
+            "one": "Balance",
+            "two": "Coins",
+            "three": "Fragments",
+            "four": "Rubies"
+        },
+        "acc": {
+            "one": "Profile",
+            "two": "This is to create and view your Profile, usage will be available soon",
+            "three": "Level:",
+            "three1": "Oof, it seems you are not Premium",
+            "three2": "Yes, and Mastive Team thanks you!",
+            "four": "Total Xp:",
+            "five": "Coins",
+            "six": "Fragments:",
+            "seven": "Rubies:",
+            "eight": "Dailies Claimed:",
+            "nine": "Reputation Points:",
+            "ten": "User ID:",
+            "eleven": "Requested by:",
+            "err": {
+                "one": "I couldnt find any account!\nIf this is your account and contniues, be sure to run "
+            }
+        }
+    }
+}

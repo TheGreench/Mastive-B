@@ -1,0 +1,42 @@
+{
+  "name": "mastive",
+  "version": "1.0.0",
+  "description": "Mastive Bot Open Source ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGreench/Mastive..git"
+  },
+  "keywords": [
+    "discord",
+    "discordbot",
+    "mongodb"
+  ],
+  "author": "TheGreench",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/TheGreench/Mastive./issues"
+  },
+  "homepage": "https://github.com/TheGreench/Mastive.#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.8.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.10.4",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "novelcovid": "^3.0.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "superagent": "^6.1.0"
+  }
+}
