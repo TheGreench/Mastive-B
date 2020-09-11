@@ -76,7 +76,7 @@ To learn how to contribute join our [Discord Server](https://discord.gg/vZVhs26)
 
 This Proyect is under the MIT License - read the file [LICENSE.md](LICENSE.md) to learn more about it
 
-## Expresiones de Gratitud 🎁
+## Dont Forget to 🎁
 
 * Tell your friends 📢
 * Contribute
